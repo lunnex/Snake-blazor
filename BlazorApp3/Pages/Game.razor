@@ -1,0 +1,138 @@
+﻿@page "/game/{PlayerName}"
+@using Microsoft.EntityFrameworkCore
+@inject GameContext DbContext
+@using Radzen.Blazor
+@using BlazorApp3.Data
+@implements IDisposable
+@inject NavigationManager Navigation
+
+<h2>Змейка</h2>
+<h3>Игрок: @PlayerName</h3>
+
+<div class="game-container" tabindex="1" @onkeydown="OnKeyDown">
+    @for (int y = 0; y < Height; y++)
+    {
+        <div class="row">
+            @for (int x = 0; x < Width; x++)
+            {
+                <div class="cell @(IsSnake(x, y) ? "snake" : IsFood(x, y) ? "food" : "")"></div>
+            }
+        </div>
+    }
+
+
+<p>Счет: @Score</p>
+    <div class="button-container">
+<RadzenButton Text="Играть" Click="StartGame" class="in-game-button" />
+<RadzenButton Text="Рекорды" Click="NavigateToRecords" />
+<RadzenButton Text="Назад" Click="NavigateToEnterName" />
+    </div>
+</div>
+
+@code {
+    private const int Width = 20;
+    private const int Height = 20;
+    private Timer? GameTimer;
+    private List<(int x, int y)> Snake = new() { (10, 10) };
+    private (int x, int y) Food = (5, 5);
+    private (int dx, int dy) Direction = (0, 1);
+    private bool IsRunning = false;
+    private int Score = 0;
+
+    [Parameter]
+    public string? PlayerName { get; set; }
+
+    protected override void OnInitialized(){
+        PlayerName = PlayerName;
+    }
+
+    private void StartGame()
+    {
+        Snake = new List<(int x, int y)> { (10, 10) };
+        Food = (5, 5);
+        Direction = (0, 1);
+        Score = 0;
+        IsRunning = true;
+
+        GameTimer = new Timer(GameLoop, null, 0, 200);
+    }
+
+    private void GameLoop(object? state)
+    {
+        if (!IsRunning) return;
+
+        var newHead = (x: Snake[0].x + Direction.dx, y: Snake[0].y + Direction.dy);
+
+        if (newHead.x < 0 || newHead.y < 0 || newHead.x >= Width || newHead.y >= Height || Snake.Contains(newHead))
+        {
+            IsRunning = false;
+            GameTimer?.Dispose();
+
+            var user = DbContext.PlayerScores?.Where(_ => _.PlayerName == PlayerName);
+            var maxUserScore = user?.Count() > 0 ? user.OrderBy(_ => _.Score)?.First()?.Score : -1;
+
+            if (user?.Count() == 0 || maxUserScore < Score)
+            {
+                DbContext.PlayerScores.Add(new PlayerScore() { PlayerName = PlayerName ?? string.Empty, Score = Score, DateAchieved = DateTime.UtcNow });
+                DbContext.SaveChanges();
+            }
+
+            return;
+        }
+
+        Snake.Insert(0, newHead);
+
+        if (newHead == Food)
+        {
+            Score++;
+            GenerateFood();
+        }
+        else
+        {
+            Snake.RemoveAt(Snake.Count - 1);
+        }
+
+        InvokeAsync(StateHasChanged);
+    }
+
+    private void GenerateFood()
+    {
+        var rnd = new Random();
+        do
+        {
+            Food = (rnd.Next(0, Width), rnd.Next(0, Height));
+        } while (Snake.Contains(Food));
+    }
+
+    private bool IsSnake(int x, int y) => Snake.Contains((x, y));
+    private bool IsFood(int x, int y) => Food == (x, y);
+
+    private void OnKeyDown(KeyboardEventArgs e)
+    {
+        if (!IsRunning) return;
+
+        Direction = e.Key switch
+        {
+            "ArrowUp" => (0, -1),
+            "ArrowDown" => (0, 1),
+            "ArrowLeft" => (-1, 0),
+            "ArrowRight" => (1, 0),
+            _ => Direction
+        };
+    }
+
+    private void NavigateToRecords()
+    {
+        Navigation.NavigateTo($"/records");
+    }
+
+    private void NavigateToEnterName()
+    {
+        Navigation.NavigateTo($"/");
+    }
+
+    public void Dispose()
+    {
+        GameTimer?.Dispose();
+    }
+}

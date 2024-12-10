@@ -1,0 +1,329 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6009051F-F600-469A-BBC3-C166CB6D9A95}|BlazorApp3\\BlazorApp3.csproj|c:\\users\\ilya_korotkikh\\source\\repos\\blazorapp3\\blazorapp3\\pages\\game.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6009051F-F600-469A-BBC3-C166CB6D9A95}|BlazorApp3\\BlazorApp3.csproj|solutionrelative:blazorapp3\\pages\\game.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6009051F-F600-469A-BBC3-C166CB6D9A95}|BlazorApp3\\BlazorApp3.csproj|c:\\users\\ilya_korotkikh\\source\\repos\\blazorapp3\\blazorapp3\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6009051F-F600-469A-BBC3-C166CB6D9A95}|BlazorApp3\\BlazorApp3.csproj|solutionrelative:blazorapp3\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6009051F-F600-469A-BBC3-C166CB6D9A95}|BlazorApp3\\BlazorApp3.csproj|c:\\users\\ilya_korotkikh\\source\\repos\\blazorapp3\\blazorapp3\\pages\\records.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6009051F-F600-469A-BBC3-C166CB6D9A95}|BlazorApp3\\BlazorApp3.csproj|solutionrelative:blazorapp3\\pages\\records.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6009051F-F600-469A-BBC3-C166CB6D9A95}|BlazorApp3\\BlazorApp3.csproj|c:\\users\\ilya_korotkikh\\source\\repos\\blazorapp3\\blazorapp3\\pages\\entername.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6009051F-F600-469A-BBC3-C166CB6D9A95}|BlazorApp3\\BlazorApp3.csproj|solutionrelative:blazorapp3\\pages\\entername.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6009051F-F600-469A-BBC3-C166CB6D9A95}|BlazorApp3\\BlazorApp3.csproj|c:\\users\\ilya_korotkikh\\source\\repos\\blazorapp3\\blazorapp3\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6009051F-F600-469A-BBC3-C166CB6D9A95}|BlazorApp3\\BlazorApp3.csproj|solutionrelative:blazorapp3\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6009051F-F600-469A-BBC3-C166CB6D9A95}|BlazorApp3\\BlazorApp3.csproj|c:\\users\\ilya_korotkikh\\source\\repos\\blazorapp3\\blazorapp3\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6009051F-F600-469A-BBC3-C166CB6D9A95}|BlazorApp3\\BlazorApp3.csproj|solutionrelative:blazorapp3\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6009051F-F600-469A-BBC3-C166CB6D9A95}|BlazorApp3\\BlazorApp3.csproj|c:\\users\\ilya_korotkikh\\source\\repos\\blazorapp3\\blazorapp3\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6009051F-F600-469A-BBC3-C166CB6D9A95}|BlazorApp3\\BlazorApp3.csproj|solutionrelative:blazorapp3\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6009051F-F600-469A-BBC3-C166CB6D9A95}|BlazorApp3\\BlazorApp3.csproj|c:\\users\\ilya_korotkikh\\source\\repos\\blazorapp3\\blazorapp3\\data\\playerscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6009051F-F600-469A-BBC3-C166CB6D9A95}|BlazorApp3\\BlazorApp3.csproj|solutionrelative:blazorapp3\\data\\playerscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6009051F-F600-469A-BBC3-C166CB6D9A95}|BlazorApp3\\BlazorApp3.csproj|c:\\users\\ilya_korotkikh\\source\\repos\\blazorapp3\\blazorapp3\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6009051F-F600-469A-BBC3-C166CB6D9A95}|BlazorApp3\\BlazorApp3.csproj|solutionrelative:blazorapp3\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6009051F-F600-469A-BBC3-C166CB6D9A95}|BlazorApp3\\BlazorApp3.csproj|c:\\users\\ilya_korotkikh\\source\\repos\\blazorapp3\\blazorapp3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6009051F-F600-469A-BBC3-C166CB6D9A95}|BlazorApp3\\BlazorApp3.csproj|solutionrelative:blazorapp3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6009051F-F600-469A-BBC3-C166CB6D9A95}|BlazorApp3\\BlazorApp3.csproj|c:\\users\\ilya_korotkikh\\source\\repos\\blazorapp3\\blazorapp3\\migrations\\20241208215840_ininitialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6009051F-F600-469A-BBC3-C166CB6D9A95}|BlazorApp3\\BlazorApp3.csproj|solutionrelative:blazorapp3\\migrations\\20241208215840_ininitialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6009051F-F600-469A-BBC3-C166CB6D9A95}|BlazorApp3\\BlazorApp3.csproj|c:\\users\\ilya_korotkikh\\source\\repos\\blazorapp3\\blazorapp3\\migrations\\gamecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6009051F-F600-469A-BBC3-C166CB6D9A95}|BlazorApp3\\BlazorApp3.csproj|solutionrelative:blazorapp3\\migrations\\gamecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6009051F-F600-469A-BBC3-C166CB6D9A95}|BlazorApp3\\BlazorApp3.csproj|c:\\users\\ilya_korotkikh\\source\\repos\\blazorapp3\\blazorapp3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6009051F-F600-469A-BBC3-C166CB6D9A95}|BlazorApp3\\BlazorApp3.csproj|solutionrelative:blazorapp3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6009051F-F600-469A-BBC3-C166CB6D9A95}|BlazorApp3\\BlazorApp3.csproj|c:\\users\\ilya_korotkikh\\source\\repos\\blazorapp3\\blazorapp3\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6009051F-F600-469A-BBC3-C166CB6D9A95}|BlazorApp3\\BlazorApp3.csproj|solutionrelative:blazorapp3\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6009051F-F600-469A-BBC3-C166CB6D9A95}|BlazorApp3\\BlazorApp3.csproj|c:\\users\\ilya_korotkikh\\source\\repos\\blazorapp3\\blazorapp3\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6009051F-F600-469A-BBC3-C166CB6D9A95}|BlazorApp3\\BlazorApp3.csproj|solutionrelative:blazorapp3\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6009051F-F600-469A-BBC3-C166CB6D9A95}|BlazorApp3\\BlazorApp3.csproj|c:\\users\\ilya_korotkikh\\source\\repos\\blazorapp3\\blazorapp3\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6009051F-F600-469A-BBC3-C166CB6D9A95}|BlazorApp3\\BlazorApp3.csproj|solutionrelative:blazorapp3\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6009051F-F600-469A-BBC3-C166CB6D9A95}|BlazorApp3\\BlazorApp3.csproj|c:\\users\\ilya_korotkikh\\source\\repos\\blazorapp3\\blazorapp3\\blazorapp3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6009051F-F600-469A-BBC3-C166CB6D9A95}|BlazorApp3\\BlazorApp3.csproj|solutionrelative:blazorapp3\\blazorapp3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6009051F-F600-469A-BBC3-C166CB6D9A95}|BlazorApp3\\BlazorApp3.csproj|c:\\users\\ilya_korotkikh\\source\\repos\\blazorapp3\\blazorapp3\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6009051F-F600-469A-BBC3-C166CB6D9A95}|BlazorApp3\\BlazorApp3.csproj|solutionrelative:blazorapp3\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6009051F-F600-469A-BBC3-C166CB6D9A95}|BlazorApp3\\BlazorApp3.csproj|c:\\users\\ilya_korotkikh\\source\\repos\\blazorapp3\\blazorapp3\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6009051F-F600-469A-BBC3-C166CB6D9A95}|BlazorApp3\\BlazorApp3.csproj|solutionrelative:blazorapp3\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\BlazorApp3\\appsettings.json",
+              "RelativeDocumentMoniker": "BlazorApp3\\appsettings.json",
+              "ToolTip": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\BlazorApp3\\appsettings.json",
+              "RelativeToolTip": "BlazorApp3\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-08T19:52:21.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Host.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\BlazorApp3\\Pages\\_Host.cshtml",
+              "RelativeDocumentMoniker": "BlazorApp3\\Pages\\_Host.cshtml",
+              "ToolTip": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\BlazorApp3\\Pages\\_Host.cshtml",
+              "RelativeToolTip": "BlazorApp3\\Pages\\_Host.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T19:38:33.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\BlazorApp3\\Pages\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BlazorApp3\\Pages\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\BlazorApp3\\Pages\\_Layout.cshtml",
+              "RelativeToolTip": "BlazorApp3\\Pages\\_Layout.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T19:52:46.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\BlazorApp3\\Data\\DbContext.cs",
+              "RelativeDocumentMoniker": "BlazorApp3\\Data\\DbContext.cs",
+              "ToolTip": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\BlazorApp3\\Data\\DbContext.cs",
+              "RelativeToolTip": "BlazorApp3\\Data\\DbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T21:35:08.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnterName.razor",
+              "DocumentMoniker": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\BlazorApp3\\Pages\\EnterName.razor",
+              "RelativeDocumentMoniker": "BlazorApp3\\Pages\\EnterName.razor",
+              "ToolTip": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\BlazorApp3\\Pages\\EnterName.razor",
+              "RelativeToolTip": "BlazorApp3\\Pages\\EnterName.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAACKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T19:41:21.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Game.razor",
+              "DocumentMoniker": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\BlazorApp3\\Pages\\Game.razor",
+              "RelativeDocumentMoniker": "BlazorApp3\\Pages\\Game.razor",
+              "ToolTip": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\BlazorApp3\\Pages\\Game.razor",
+              "RelativeToolTip": "BlazorApp3\\Pages\\Game.razor",
+              "ViewState": "AQIAACsAAAAAAAAAAAAQwEEAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T21:45:44.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlayerScore.cs",
+              "DocumentMoniker": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\BlazorApp3\\Data\\PlayerScore.cs",
+              "RelativeDocumentMoniker": "BlazorApp3\\Data\\PlayerScore.cs",
+              "ToolTip": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\BlazorApp3\\Data\\PlayerScore.cs",
+              "RelativeToolTip": "BlazorApp3\\Data\\PlayerScore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T21:34:33.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\BlazorApp3\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "BlazorApp3\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\BlazorApp3\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "BlazorApp3\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAswBsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-07T21:46:03.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Records.razor",
+              "DocumentMoniker": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\BlazorApp3\\Pages\\Records.razor",
+              "RelativeDocumentMoniker": "BlazorApp3\\Pages\\Records.razor",
+              "ToolTip": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\BlazorApp3\\Pages\\Records.razor",
+              "RelativeToolTip": "BlazorApp3\\Pages\\Records.razor",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAowAsAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T20:32:35.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\BlazorApp3\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "BlazorApp3\\Shared\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\BlazorApp3\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "BlazorApp3\\Shared\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T19:52:57.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20241208215840_IninitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\BlazorApp3\\Migrations\\20241208215840_IninitialCreate.cs",
+              "RelativeDocumentMoniker": "BlazorApp3\\Migrations\\20241208215840_IninitialCreate.cs",
+              "ToolTip": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\BlazorApp3\\Migrations\\20241208215840_IninitialCreate.cs",
+              "RelativeToolTip": "BlazorApp3\\Migrations\\20241208215840_IninitialCreate.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T21:58:45.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\BlazorApp3\\App.razor",
+              "RelativeDocumentMoniker": "BlazorApp3\\App.razor",
+              "ToolTip": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\BlazorApp3\\App.razor",
+              "RelativeToolTip": "BlazorApp3\\App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T21:46:27.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\BlazorApp3\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorApp3\\Program.cs",
+              "ToolTip": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\BlazorApp3\\Program.cs",
+              "RelativeToolTip": "BlazorApp3\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T19:52:25.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GameContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\BlazorApp3\\Migrations\\GameContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "BlazorApp3\\Migrations\\GameContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\BlazorApp3\\Migrations\\GameContextModelSnapshot.cs",
+              "RelativeToolTip": "BlazorApp3\\Migrations\\GameContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T21:59:56.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\BlazorApp3\\Dockerfile",
+              "RelativeDocumentMoniker": "BlazorApp3\\Dockerfile",
+              "ToolTip": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\BlazorApp3\\Dockerfile",
+              "RelativeToolTip": "BlazorApp3\\Dockerfile",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-08T22:56:48.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\BlazorApp3\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "BlazorApp3\\Pages\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\BlazorApp3\\Pages\\Error.cshtml",
+              "RelativeToolTip": "BlazorApp3\\Pages\\Error.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T19:52:37.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BlazorApp3.csproj",
+              "DocumentMoniker": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\BlazorApp3\\BlazorApp3.csproj",
+              "RelativeDocumentMoniker": "BlazorApp3\\BlazorApp3.csproj",
+              "ToolTip": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\BlazorApp3\\BlazorApp3.csproj",
+              "RelativeToolTip": "BlazorApp3\\BlazorApp3.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-08T21:56:23.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\BlazorApp3\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "BlazorApp3\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\BlazorApp3\\Properties\\launchSettings.json",
+              "RelativeToolTip": "BlazorApp3\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-08T20:33:46.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\BlazorApp3\\_Imports.razor",
+              "RelativeDocumentMoniker": "BlazorApp3\\_Imports.razor",
+              "ToolTip": "C:\\Users\\Ilya_Korotkikh\\source\\repos\\BlazorApp3\\BlazorApp3\\_Imports.razor",
+              "RelativeToolTip": "BlazorApp3\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T19:28:36.423Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

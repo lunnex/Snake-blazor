@@ -1,0 +1,15 @@
+﻿@page "/"
+@using Radzen.Blazor
+@inject NavigationManager Navigation
+
+<RadzenCard Style="width: 300px; margin: auto; margin-top: 100px; padding: 20px;">
+    <h3>Как тебя зовут?</h3>
+    <RadzenTextBox @bind-Value="PlayerName" Placeholder="Введи имя..." Style="width: 100%;" />
+    <RadzenButton Text="Играть" Style="margin-top: 20px;" Click="NavigateToGame" />
+</RadzenCard>
+
+@code {
+    private string PlayerName { get; set; } = string.Empty;
+
+    private void NavigateToGame() => Navigation.NavigateTo($"/game/{(PlayerName.Length > 0 ? PlayerName : "Пожелавший остаться неизвестным")}");
+}

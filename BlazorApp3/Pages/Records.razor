@@ -1,0 +1,27 @@
+﻿@page "/records"
+@using Radzen.Blazor
+@using BlazorApp3.Data
+@inject GameContext DBContext
+
+<RadzenCard Style="width: 600px; margin: auto; margin-top: 20px; padding: 20px;">
+    <h3>High Scores</h3>
+    <RadzenDataGrid Data="@Scores" TItem="PlayerScore" Style="margin-top: 20px;">
+        <Columns>
+            <RadzenDataGridColumn TItem="PlayerScore" Property="PlayerName" Title="Имя" />
+            <RadzenDataGridColumn TItem="PlayerScore" Property="Score" Title="Счет" />
+            <RadzenDataGridColumn TItem="PlayerScore" Property="DateAchieved" Title="Дата и время" />
+        </Columns>
+    </RadzenDataGrid>
+</RadzenCard>
+
+@code {
+    private List<PlayerScore> Scores = new();
+
+    protected override void OnInitialized()
+    {
+        Scores = DBContext.PlayerScores
+            .OrderByDescending(s => s.Score)
+            .Take(10)
+            .ToList();
+    }
+}

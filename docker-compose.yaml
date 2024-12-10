@@ -1,0 +1,30 @@
+version: "3.9"
+
+services:
+  snake-game:
+    build:
+      context: .
+    ports:
+      - "7172:80"
+    networks:
+      - app-network
+    environment:
+      - ConnectionStrings__PostgresConnection=Host=snake-pg;Port=5432;Database=Snake;Username=postgres;Password=postgres
+    depends_on:
+      - postgres # Указывает, что приложение должно дождаться запуска базы данных
+
+  postgres:
+    image: postgres:latest
+    container_name: snake-pg
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: Snake
+    networks:
+      - app-network
+    ports:
+      - "5454:5432"
+
+networks:
+  app-network:
+    driver: bridge

@@ -1,0 +1,35 @@
+.game-container {
+    display: grid;
+    grid-template-rows: repeat(20, 20px);
+    width: 400px;
+    margin: 0 auto;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(20, 20px);
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.cell.snake {
+    background-color: #28a745;
+}
+
+.cell.food {
+    background-color: #dc3545;
+}
+
+.in-game-button {
+    margin: 5px;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 10px;
+}
